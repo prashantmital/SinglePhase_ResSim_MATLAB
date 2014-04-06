@@ -1,0 +1,33 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1265\cocoasubrtf190
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+\margl1440\margr1440\vieww10800\viewh8400\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural
+
+\f0\fs24 \cf0 ResSim v1.0 \'97 built with love by Prashant Mital\
+\'97\'97\'97\'97\'97\'97\
+README\
+\'97\'97\'97\'97\'97\'97\
+\
+\
+Using ResSim\
+\'97\'97\'97\'97\'97\'97\
+1. Name the directory that contains the MATLAB functions for permeability, porosity and height \'91functions\'92 and place it in the ResSim directory. \
+2. Name the file containing well inputs, basic simulation parameters and physical quantities, and inactive cell locations \'91datainput.xlsx\'92 and place it in the ResSim directory.\
+3. Use the command line or MATLAB GUI and execute \'91main.m\'92 to run the simulation.\
+\
+\
+Creating a new case\
+\'97\'97\'97\'97\'97\'97\
+1. Make a copy of \'91datainput.xlsx\'92 and \'91functions/\'91 and move the originals to a secure location from which they can be retrieved for later use\
+2. Modify the input files (xlsx and input functions using a text editor or the MATLAB editor).\
+3. Execute \'91main.m\'92\
+4. Create a Copy \
+\
+\
+Visualization of Output\
+\'97\'97\'97\'97\'97\'97\
+1. ResSim stores the values of pressure in the entire domain at each time step, and also records the bottom hole pressure and flow rate of each well in the simulation. \
+Psim holds the domain pressure data at each time step row-wise.\
+Pwf and Qwf hold the well data by column and arrays time steps by row.\
+2. Most commonly needed graphs can be plotted using the provided script \'91visualize.m\'92. See script for capability documentation.}
